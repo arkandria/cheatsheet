@@ -1,0 +1,74 @@
+Visual Rules Cheasheet
+
+This is a quick resource for some notes about CSS Visual Rules
+
+font-family
+
+Use websafe fonts.
+If the name of the font has more than one word, use '' to write down the name.
+
+Example
+
+font-family: Helvetica;
+font-family: 'Comic Sans';
+
+font-size
+
+The size is measured commonly in pixels.
+
+Example
+
+font-size: 10px;
+
+font-weight
+
+Could be bold or normal.
+The normal value is used when a general rule has a different value and we need to add an exception.
+
+Example
+
+font-weight: bold;
+
+text-align
+
+The text could be aligned to the left, right, center or justify.
+By default, text is aligned to the left.
+
+Example
+
+text-align:center;
+
+color
+
+This rule applies to the foregroud color of the element, i.e. the color of the font.
+
+Example
+
+color: blue;
+
+background-color
+
+In oposition to the last visual rule, the color selected will be displayed in the background.
+
+Example 
+
+background-color: orange;
+
+opacity
+
+This rule establish how transparent or visible the element will be displayed.
+The values are set between 0 and 1.
+
+Example
+
+opacity: 0.75;
+
+!important
+
+This tag is used to override other visual rules contained in more specific declarations. 
+Should be used in exceptional cases only.
+
+Example
+
+color: blue; !important
+
