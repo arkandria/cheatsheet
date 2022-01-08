@@ -1,0 +1,28 @@
+* {
+    font-family: Cambria;
+    color: whitesmoke;
+}
+
+body {
+    background-color: dimgrey;
+}
+
+h1 {
+    font-size: 50px;
+    color:lightskyblue;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    background-color: steelblue;
+}
+
+.code-example {
+    background-color: darkslategrey;
+    font-family: monospace;
+}
